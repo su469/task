@@ -1,0 +1,71 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+#users{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+    
+    background-color: cornsilk;
+}
+#users td,#users th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#user tr:hover{background-color: blueviolet;}
+#users th{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    text-align: left;
+    color: crimson;
+    font-size: 20px;
+    
+    background-color: rgb(8, 185, 185);
+}
+.serach{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+.size{
+    width: 300px;
+    padding: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top:0px ;
+}
+.btn {
+    width: 60px;
+    padding: 2px 2px 2px;
+    background-color:lightsalmon;
+}
+.box
+{
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    z-index: 1;
+    width: 300px;
+    font-size: 30px;
+    background-color: lightslategray;
+
+}
+#exampleModalLabel{
+    color:white;
+    margin-left:40px ;
+    font-size: 25px;
+     
+}
+.modal-body{
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+#button{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
